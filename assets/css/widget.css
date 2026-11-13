@@ -1,0 +1,69 @@
+/* Mirrors the stock Honeycomb form/container rules, scoped to this widget's type. */
+
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-primary-label,
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-secondary-label {
+	display: grid;
+	grid-template-columns: minmax(85px, max-content) 1fr max-content minmax(110px, max-content);
+	align-items: center;
+	column-gap: 10px;
+	row-gap: 5px;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-primary-label .form-field,
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-secondary-label .form-field {
+	line-height: 24px;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group .label-size {
+	margin-right: 5px;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-primary-label hr,
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-secondary-label hr {
+	grid-column: 1 / -1;
+	margin: 0;
+	width: 100%;
+	border: solid rgba(128, 128, 128, .25);
+	border-width: 1px 0 0 0;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-primary-label .form-field:nth-child(1),
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-secondary-label .form-field:nth-child(1) {
+	grid-column: 1 / -1;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-primary-label .field-fluid,
+form.dashboard-widget-exceptionhoneycomb .fields-group.fields-group-secondary-label .field-fluid {
+	grid-column: 2 / -1;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group .label-units-show {
+	display: flex;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group .label-units-show label {
+	width: 100%;
+}
+
+form.dashboard-widget-exceptionhoneycomb .fields-group .form-row-interpolation {
+	margin-bottom: 10px;
+}
+
+form.dashboard-widget-exceptionhoneycomb .condition-row {
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+form.dashboard-widget-exceptionhoneycomb .condition-row input[type="text"] {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+div.dashboard-widget-exceptionhoneycomb {
+	overflow-x: hidden;
+}
+
+div.dashboard-widget-exceptionhoneycomb .dashboard-grid-widget-body svg {
+	display: block;
+}
